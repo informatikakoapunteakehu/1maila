@@ -1,0 +1,48 @@
+int pulsador = 12;
+int estado = 0;
+int ledG = 11;
+int ledH = 10;
+int ledB = 9;
+
+int sonido = 2;
+int i = 1;
+
+void setup(){
+  
+  pinMode(pulsador, INPUT);
+  pinMode(ledG, OUTPUT);
+  pinMode(ledH, OUTPUT);
+  pinMode(ledB, OUTPUT);
+  pinMode(sonido, OUTPUT);
+  
+}
+
+void loop(){
+  
+  estado = digitalRead(pulsador);
+  
+  digitalWrite(ledG, HIGH);
+  
+  if (estado == HIGH){
+     digitalWrite(ledG, LOW);
+     digitalWrite(ledH, HIGH);
+     delay(5000);
+     digitalWrite(ledH, LOW);
+     digitalWrite(ledB, HIGH);
+     delay(5000);
+     for(i;i<=5;i++){
+       digitalWrite(ledB, LOW);
+       tone(sonido, 2000, 300);
+       delay(500);
+       
+       digitalWrite(ledB, HIGH);
+       tone(sonido, 2000, 300);
+       delay(500);
+     }
+     digitalWrite(ledB, LOW);
+     digitalWrite(ledG, HIGH);
+  }
+  
+  i = 1;
+  
+}
