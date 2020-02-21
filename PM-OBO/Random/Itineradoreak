@@ -1,0 +1,15 @@
+Pepe Gartzia
+Ana Garcia
+
+itr.next().imprimatuIzena(); -- Pepe
+itr.next().imprimatuAbizena() -- Garcia
+
+pertsona = itr.next();
+pertsona.imprimatuIzena(); -- Pepe
+pertsona.imprimatuAbizena(); -- Gartzia
+
+
+3 erlazioa mota:
+-Elkartasuna(Pertsona eta kutxa gogorra)
+-Menpekotasuna(Gizona ta emakumea[Alice])
+-Orokortasuna
