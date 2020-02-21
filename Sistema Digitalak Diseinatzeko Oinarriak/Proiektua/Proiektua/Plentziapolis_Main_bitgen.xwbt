@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Descargas\Plentziapolis2\Plentziapolis_Main.ncd
+OUTFILE=E:\Descargas\Plentziapolis2\Plentziapolis_Main.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\Descargas\Plentziapolis2
+LICENSE=WebPack
+USER_INFO=__0_0_0

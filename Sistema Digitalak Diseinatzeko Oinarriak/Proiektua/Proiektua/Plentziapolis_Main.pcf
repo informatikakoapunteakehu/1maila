@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jan 19 11:44:15 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "reset<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "irteerak<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "irteerak<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "irteerak<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "dirua<0>" LOCATE = SITE "D9" LEVEL 1;
+COMP "dirua<1>" LOCATE = SITE "B8" LEVEL 1;
+COMP "dirua<2>" LOCATE = SITE "C4" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "kontua_FSM_FFd1" BEL "kontua_FSM_FFd3" BEL
+        "kontua_FSM_FFd2" BEL "kontadore_0" BEL "kontadore_1" BEL
+        "kontadore_2" BEL "kontadore_3" BEL "kontadore_4" BEL "kontadore_7"
+        BEL "kontadore_5" BEL "kontadore_6" BEL "kontadore_8" BEL
+        "kontadore_9" BEL "kontadore_10" BEL "kontadore_11" BEL "kontadore_12"
+        BEL "kontadore_13" BEL "kontadore_16" BEL "kontadore_14" BEL
+        "kontadore_15" BEL "kontadore_17" BEL "kontadore_18" BEL
+        "kontadore_19" BEL "kontadore_20" BEL "kontadore_21" BEL
+        "kontadore_22" BEL "kontadore_25" BEL "kontadore_23" BEL
+        "kontadore_24" BEL "kontadore_26" BEL "kontadore_27" BEL
+        "kontadore_28" BEL "kontua_FSM_FFd1_1" BEL "kontua_FSM_FFd2_1" BEL
+        "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

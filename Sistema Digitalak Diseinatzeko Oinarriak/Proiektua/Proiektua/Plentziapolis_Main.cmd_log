@@ -1,0 +1,421 @@
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+netgen -intstyle ise -ar Structure -tm Plentziapolis_Main -w -dir netgen/synthesis -ofmt vhdl -sim Plentziapolis_Main.ngc Plentziapolis_Main_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm Plentziapolis_Main -w -dir netgen/translate -ofmt vhdl -sim Plentziapolis_Main.ngd Plentziapolis_Main_translate.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+vhdtdtfi -lib work kont.vhd -lib work Plentziapolis_Main.vhd -prj Plentziapolis -o Plentziapolis_Main.spl -module Plentziapolis_Main -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Plentziapolis_Main.spl {C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.sym} 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+netgen -intstyle ise -ar Structure -tm Plentziapolis_Main -w -dir netgen/synthesis -ofmt vhdl -sim Plentziapolis_Main.ngc Plentziapolis_Main_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.xst" -ofn "C:/Documents and Settings/alumno/Mis documentos/PDSD_C/GL3/p_3_1/Practica_3.2/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Documents and Settings/alumno/Mis documentos/Descargas/Nexys3_Master_UCF/Nexys3_Master.ucf" -p xc6slx16-csg324-3 "Plentziapolis_Main.ngc" Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "G:/Plentziapolis/Plentziapolis_Main.xst" -ofn "G:/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+netgen -intstyle ise -ar Structure -tm Plentziapolis_Main -w -dir netgen/synthesis -ofmt vhdl -sim Plentziapolis_Main.ngc Plentziapolis_Main_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
+xst -intstyle ise -ifn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.xst" -ofn "E:/Descargas/Plentziapolis2/Plentziapolis_Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 Plentziapolis_Main.ngc Plentziapolis_Main.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Plentziapolis_Main_map.ncd Plentziapolis_Main.ngd Plentziapolis_Main.pcf 
+par -w -intstyle ise -ol high -mt off Plentziapolis_Main_map.ncd Plentziapolis_Main.ncd Plentziapolis_Main.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Plentziapolis_Main.twx Plentziapolis_Main.ncd -o Plentziapolis_Main.twr Plentziapolis_Main.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f Plentziapolis_Main.ut Plentziapolis_Main.ncd 
